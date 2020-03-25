@@ -18,7 +18,7 @@ parser.add_argument("-b","--batch_size",type = int, default = 32)
 parser.add_argument("-e","--episode",type = int, default= 200000)
 parser.add_argument("-t","--test_episode", type = int, default = 1000)
 parser.add_argument("-l","--learning_rate", type = float, default = 1e-5)
-parser.add_argument("-g","--gpu",type=int, default=0) // for Google Colab
+parser.add_argument("-g","--gpu",type=int, default=0) # for Google Colab
 args = parser.parse_args()
 
 
